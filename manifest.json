@@ -1,0 +1,37 @@
+{
+  "background": {
+    "scripts": ["background.js", "jquery.js"]
+  },
+  "browser_action": {
+    "default_icon": {
+      "128": "icon.png"
+    },
+    "default_title": "__MSG_browser_action_inactive_title__",
+    "default_popup": "popup.html"
+  },
+  "default_locale": "en",
+  "description": "",
+  "icons": {
+    "128": "icon.png"
+  },
+  "manifest_version": 2,
+  "minimum_chrome_version": "60",
+  "name": "Smart VPN and AdBlock",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking",
+    "cookies",
+    "storage",
+    "contextMenus",
+    "<all_urls>",
+    "bookmarks",
+    "notifications",
+    "proxy",
+    "idle"
+  ],
+  "short_name": "Smart VPN adn AcBlock",
+  "version": "1.0"
+}
